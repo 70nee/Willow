@@ -1,0 +1,19 @@
+{
+  "name": "willow-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot to copy and paste server structure",
+  "license": "MIT",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "dotenv": "^16.4.7"
+  }
+}
